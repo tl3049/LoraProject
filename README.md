@@ -52,11 +52,3 @@ Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sent
 Size: 50,000 labeled reviews (balanced positive/negative)
 
 
-
-
-
-
-
-
-
-
