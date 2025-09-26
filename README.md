@@ -21,7 +21,7 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
   - Evaluates model performance on validation/test sets  
   - Demonstrates inference on new text samples  
 
-- **`requirements.txt`**:contentReference[oaicite:1]{index=1}  
+- **`requirements.txt`**:
   Required dependencies:
   ```txt
   transformers
@@ -50,4 +50,5 @@ jupyter notebook lora_distilbert_finetuning_merged.ipynb
 
 Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 Size: 50,000 labeled reviews (balanced positive/negative)
+
 
