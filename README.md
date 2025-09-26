@@ -42,15 +42,15 @@ pip install -r requirements.txt
 
 ▶️ Usage
 Open and run the Jupyter notebook:
-```bash
 jupyter notebook lora_distilbert_finetuning_merged.ipynb
 
 
 
 📊 Dataset
 
-**Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
+Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 Size: 50,000 labeled reviews (balanced positive/negative)
+
 
 
 
