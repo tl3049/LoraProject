@@ -35,7 +35,7 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/tl3049/distilbert-imdb-lora.git
+git clone https://github.com/tl3049/LoraProject.git
 cd distilbert-imdb-lora
 pip install -r requirements.txt
 
