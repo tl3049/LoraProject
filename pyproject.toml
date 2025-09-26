@@ -1,0 +1,11 @@
+[project]
+name = "loraproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [transformers
+datasets
+lightning
+watermark
+scikit-learn==1.5.2]
