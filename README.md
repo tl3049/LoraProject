@@ -10,7 +10,7 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
 - **`local_dataset_utilities.py`**  
   Utilities for:
   - Downloading and extracting the IMDB dataset  
-  - Loading reviews into a Pandas DataFrame with sentiment labels (`pos` = 1, `neg` = 0):contentReference[oaicite:0]{index=0}  
+  - Loading reviews into a Pandas DataFrame with sentiment labels (`pos` = 1, `neg` = 0)  
   - Partitioning into **train**, **validation**, and **test** CSV files  
   - Custom `IMDBDataset` class for PyTorch integration  
 
@@ -50,5 +50,6 @@ jupyter notebook lora_distilbert_finetuning_merged.ipynb
 
 Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 Size: 50,000 labeled reviews (balanced positive/negative)
+
 
 
