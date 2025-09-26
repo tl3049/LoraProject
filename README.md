@@ -33,9 +33,9 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
 ⚙️ Installation
 
 Clone the repo and install dependencies:
-git clone https://github.com/tl3049/distilbert-imdb-lora.git
-cd distilbert-imdb-lora
-pip install -r requirements.txt
+  ```git clone https://github.com/tl3049/distilbert-imdb-lora.git
+  ```cd distilbert-imdb-lora
+  ```pip install -r requirements.txt
 
 ▶️ Usage
 
@@ -54,6 +54,7 @@ Train: 35,000
 Validation: 5,000
 
 Test: 10,000
+
 
 
 
