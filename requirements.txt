@@ -1,0 +1,5 @@
+transformers
+datasets
+lightning
+watermark
+scikit-learn==1.5.2
