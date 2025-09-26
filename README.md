@@ -5,7 +5,7 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - **`local_dataset_utilities.py`**  
   Utilities for:
@@ -30,25 +30,27 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
   watermark
   scikit-learn==1.5.2
 
-## ⚙️ Installation
+## Installation
 
 Clone the repo and install dependencies:
 
-```bash
+```python
 git clone https://github.com/tl3049/LoraProject.git
 cd distilbert-imdb-lora
 pip install -r requirements.txt
+```
 
-
-▶️ Usage
+## Usage
 Open and run the Jupyter notebook:
+```python
 jupyter notebook lora_distilbert_finetuning_merged.ipynb
+```
 
 
-
-📊 Dataset
+## Dataset
 
 Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 Size: 50,000 labeled reviews (balanced positive/negative)
+
 
 
