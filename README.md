@@ -32,28 +32,20 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
 
 ⚙️ Installation
 
-Clone the repo and install dependencies:
-  ```git clone https://github.com/tl3049/distilbert-imdb-lora.git
+**Clone the repo and install dependencies:
+  git clone https://github.com/tl3049/distilbert-imdb-lora.git
   cd distilbert-imdb-lora
   pip install -r requirements.txt
 
 ▶️ Usage
 
-Fine-tune the model
-Open and run the Jupyter notebook:
+**Open and run the Jupyter notebook:
 jupyter notebook lora_distilbert_finetuning_merged.ipynb
 
 📊 Dataset
 
-Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
+**Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 Size: 50,000 labeled reviews (balanced positive/negative)
-Splits:
-
-Train: 35,000
-
-Validation: 5,000
-
-Test: 10,000
 
 
 
