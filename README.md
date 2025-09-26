@@ -36,7 +36,6 @@ Clone the repo and install dependencies:
 
 ```python
 git clone https://github.com/tl3049/LoraProject.git
-cd distilbert-imdb-lora
 pip install -r requirements.txt
 ```
 
@@ -51,6 +50,7 @@ jupyter notebook lora_distilbert_finetuning_merged.ipynb
 
 - Source: IMDB Large Movie Review Dataset (http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 - Size: 50,000 labeled reviews (balanced positive/negative)
+
 
 
 
