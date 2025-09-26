@@ -24,9 +24,9 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
 
 - **`lora_distilbert_finetuning_adapter.ipynb`**  
   Jupyter notebook that:
-- Performs the same three steps as before  
-- Deploys the adapter model to Hugging Face (significantly smaller than the merged model)  
-- Demonstrates inference by loading models directly from Hugging Face, with additional steps required to match layer keys
+  - Performs the same three steps as before  
+  - Deploys the adapter model to Hugging Face (significantly smaller than the merged model)  
+  - Demonstrates inference by loading models directly from Hugging Face, with additional steps required to match layer keys
 
 
 - **`requirements.txt`**:
