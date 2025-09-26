@@ -19,7 +19,15 @@ The model classifies reviews as either **positive** or **negative**, showcasing 
   - Loads and tokenizes the IMDB dataset  
   - Fine-tunes DistilBERT with **LoRA adapters**  
   - Evaluates model performance on validation/test sets  
+  - Deploy the complete model in Huggingface
   - Demonstrates inference on new text samples  
+
+- **`lora_distilbert_finetuning_adapter.ipynb`**  
+  Jupyter notebook that:
+- Performs the same three steps as before  
+- Deploys the adapter model to Hugging Face (significantly smaller than the merged model)  
+- Demonstrates inference by loading models directly from Hugging Face, with additional steps required to match layer keys
+
 
 - **`requirements.txt`**:
   Required dependencies:
